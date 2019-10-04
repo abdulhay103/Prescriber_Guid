@@ -1,0 +1,405 @@
+
+
+
+@font-face {
+    font-family: 'LatoRegular';
+    src: url('../fonts/LatoRegular.eot');
+    src: url('../fonts/LatoRegular.eot') format('embedded-opentype'),
+         url('../fonts/LatoRegular.woff2') format('woff2'),
+         url('../fonts/LatoRegular.woff') format('woff'),
+         url('../fonts/LatoRegular.ttf') format('truetype'),
+         url('../fonts/LatoRegular.svg#LatoRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'LatoBold';
+    src: url('../fonts/LatoBold.eot');
+    src: url('../fonts/LatoBold.eot') format('embedded-opentype'),
+         url('../fonts/LatoBold.woff2') format('woff2'),
+         url('../fonts/LatoBold.woff') format('woff'),
+         url('../fonts/LatoBold.ttf') format('truetype'),
+         url('../fonts/LatoBold.svg#LatoBold') format('svg');
+}
+
+
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 1.172vw;
+
+}
+
+h1, h2, h3, h4, h5, h6, p, ul{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.home{
+	background: url(../img/bg_home.jpg) center no-repeat;
+	text-align: center;
+	width: 100%;
+	height: 700px;
+}
+.all_content{
+	padding-top: 74px;
+}
+
+.logo_holder{
+	width:60%; 
+}
+.logo_holder > img{
+	width: 100%;
+	height: auto;
+}
+
+
+.intro_text{
+	padding-top: 23px;
+}
+
+.intro_text > h2{
+	font-family: 'LatoRegular';
+	font-size: 23.1px;
+	color: #0b5887;
+	letter-spacing: 2.25px;
+}
+
+.intro_text > p{
+	font-family: 'LatoRegular';
+	padding-top: 7px;
+	font-size: 19.5px;
+	color: #000;
+}
+
+#drug_list{
+	padding-top: 25px;
+}
+
+#drug_list > input, .btn_search{
+	display:block;
+	margin: 0 auto;
+	font-size: 16px;
+}
+#drug_list input{
+	border: 1px solid #0b5887;
+	margin-bottom: 10px;
+	height: 53px;
+	width: 402px;
+	padding-left: 18px;
+}
+
+#drug_list input:last-child{
+	margin-bottom: 6px;
+}
+
+#drug_list input::placeholder{
+	color: #5b5b5b;
+	font-size: 15px;
+	/*padding: 10px 0 0 18px;*/
+}
+
+#drug_list > .btn_search{
+	background-color: #bdd73c;
+	padding: 18px 0 20px 15px;
+	border: none;
+	width: 424px;
+}
+
+#drug_list > .btn_search > .fas{
+	padding-right: 10px;
+}
+
+/************_footer_menu1_***********/
+.footer_menu1{
+	font-family: 'LatoRegular';
+	padding-top: 100px;
+	font-size: 14px;
+	color: #fff;
+	width: 100%;
+}
+.nav1{
+	float: left;
+	width: 50%;
+	text-align: left;
+	padding-left: 2px;
+
+}
+
+.nav1 > a{
+	font-family: 'LatoRegular';
+	text-decoration: none;
+	font-size: 13px;
+	color: #fff;
+}
+.nav1 a:first-child{
+	border-right: 2px solid #fff;
+	padding-right: 15px;
+}
+.nav1 a:last-child{
+	padding-left: 15px;
+}
+.copy_right1{
+    float: right;
+    width: 48%;
+    text-align: right;
+	padding-right: 2px;
+}
+
+
+
+/*==================================
+		PRODUCT_PAGE
+==================================*/
+
+.product_page{
+	background: url(../img/bg_home2.jpg) center no-repeat;
+	width: 100%;
+	height: 872px;
+}
+.product_page > .container{
+	padding-top: 38px;
+}
+
+.product_box{
+	box-shadow: 0px 0px 15px #a1a1a1;
+	background-color: #fff;
+	border-radius: 10px;
+	padding-top: 26px;
+	height: 442px;
+	width: 100%;
+}
+
+.logo_holder{
+	text-align: center;
+}
+.inner_container{
+	width: 943px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+.inner_container > .btn_back{
+	padding: 5px 45px 10px 15px;
+	font-family: 'LatoRegular';
+	background-color: #005182;
+	text-decoration: none;
+	margin-left: 8px;
+	border-radius: 21px;
+	line-height: 2px;
+	margin-top: 10px;
+	font-size: 16px;
+	border: none;
+	color: #fff;
+}
+.span11{
+	padding-left: 10px;
+}
+.inner_container > h2{
+	font-family: 'LatoRegular';
+	font-size: 28px;
+	color: #005182;
+	padding: 25px 0 12px 5px;
+	text-align: center;
+}
+
+.drug_table{
+	width: 100%;
+	text-align: center;
+	padding-top: 12px;
+	margin-left: -8px;
+}
+table, th, td {
+	font-family: 'LatoBold';
+  	border-collapse: collapse;
+  	font-size: 20px;
+}
+th{
+ 	padding: 17px 0 16px 0; 
+ 	background-color: #bdd73c;
+ 	color: #5b5b5b;
+ 	border: 1px solid #005182;	
+}
+td {
+  	padding: 30px 0 32px 0;
+  	color: #005182;
+  	border: 1px solid rgb(195 195 195); 
+}
+
+
+/************_footer_menu1_***********/
+.footer_menu2{
+	font-family: 'LatoRegular';
+	padding-top: 219px;
+	font-size: 13px;
+	color: #fff;
+	width: 100%;
+}
+.nav2{
+	float: left;
+	width: 50%
+}
+
+.nav2 a{
+	font-family: 'LatoRegular';
+	text-decoration: none;
+	font-size: 13px;
+	color: #fff;
+	padding-left: 3px;
+}
+.nav2 a:first-child{
+	border-right: 2px solid #fff;
+	padding-right: 15px;
+}
+.nav2 a:last-child{
+	padding-left: 12px;
+}
+.copy_right2{
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+
+
+/*==================================
+		Drug_Details
+==================================*/
+
+.drug_details{
+	background: url(../img/bg_home4.jpg) center no-repeat;
+	width: 100%;
+	min-height: 1539px;
+	position: relative;
+}
+.drug_details > .container{
+	padding-top: 38px;
+	position: relative;
+}
+.innner_container_1{
+	box-shadow: 0px 0px 15px #a1a1a1;
+	background-color: #fff;
+	min-height: 1108px;
+	width: 100%;
+	border-radius: 10px;
+	padding-top: 34px;
+}
+.logo_holder{
+	text-align: center;
+}
+
+.inner_container_2{
+	max-width: 1008px;
+	margin: 0 auto; 
+	margin-top: 35px;
+}
+.inner_container_2 > h2{
+	font-family: 'LatoRegular';
+	color: #0b5887;
+	padding-bottom:20px;
+	font-size: 28px;
+}
+
+.drug_information{
+	box-shadow: 0px 0px 15px #a1a1a1;
+	font-family: 'LatoRegular';
+	display: flex;
+	height: 90px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.drug_coverer{
+	background-color: #bdd73c;
+	width: 205px;
+	}
+.drug_coverer > p{
+		padding: 16px 0 0 25px;
+		color: #000;
+	}
+.drug_coverer > p:first-child{
+		padding-bottom: 0;
+	}
+.drug_coverer > p:last-child{
+		padding-top: 10px;
+	}
+.drug_generic{
+	background-color: #fff;
+	width: 586px;
+	color: #5b5b5b;
+	padding: 15px 30px;
+}
+.drug_generic > p{
+	padding-top: 9px;
+}
+.see_details{
+	width: 144px;
+	margin: auto 0;
+	margin-right: 22px;
+
+}
+.btn_details > a{
+	background-color: #005182;
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	padding: 6px 20px 6px 13px;
+	border-radius: 25px;
+}
+.btn_details > a > span{
+	padding-left: 6px;
+}
+
+
+.all_facility{
+	margin-top: 79px;
+}
+.facilities{
+	font-family: 'LatoRegular';
+	font-size: 18px;
+	background-color: #bdd73c;
+	box-shadow: 0px 0px 5px #a1a1a1;
+	width: 100%;
+	padding: 20px 0;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.facilities > a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #000;
+}
+/************_footer_menue3_***********/
+.footer_menu3{
+	font-family: 'LatoRegular';
+	padding-top: 100px;
+	font-size: 13px;
+	color: #fff;
+	width: 100%;
+}
+.nav3{
+	float: left;
+	width: 50%
+}
+
+.nav3 a{
+	font-family: 'LatoRegular';
+	text-decoration: none;
+	font-size: 13px;
+	color: #fff;
+}
+.nav1 a:first-child{
+	border-right: 2px solid #fff;
+	padding-right: 15px;
+}
+.nav1 a:last-child{
+	padding-left: 15px;
+}
+.copy_right3{
+    float: right;
+    width: 50%;
+    text-align: right;
+}
